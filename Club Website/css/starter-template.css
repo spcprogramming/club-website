@@ -5,3 +5,20 @@ body {
   padding: 40px 15px;
   text-align: center;
 }
+
+nav {
+    background-color: #133e69;
+    text-decoration-color: black;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #133e69;
+    color: black;
+    text-align: center;
+    height: 50px;
+    font-family: "verdana"
+}
