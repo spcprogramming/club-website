@@ -1,0 +1,22 @@
+.index-text {
+    column-count: 3;
+    column-width: 40px;
+    padding-left: 20px; 
+    /*padding-right: 20px; */ 
+    padding-top: 50px; 
+    padding-bottom: 50px;
+}
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,300,800);
+@import url(http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
+figure.snip0045 {
+  font-family: 'Raleway', Arial, sans-serif;
+  position: relative;
+  overflow: hidden;
+  margin: auto;
+    margin-bottom: 50px;
+  min-width: 380px;
+  max-width: 480px;
+  background-color: rgba(0, 0, 0, .5);
+  color: white;
+  
+}
