@@ -1,5 +1,6 @@
 body {
-  padding-top: 50px;
+    padding-top: 50px;
+    height: 100%;
 }
 .starter-template {
   padding: 40px 15px;
@@ -10,9 +11,9 @@ nav {
     background-color: #133e69;
     text-decoration-color: black;
 }
-
-.footer {
-    position: fixed;
+main{    
+}
+footer {
     left: 0;
     bottom: 0;
     width: 100%;

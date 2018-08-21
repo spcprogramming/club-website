@@ -47,24 +47,8 @@
         </div><!--/.nav-collapse -->
       </div>
     </nav>
-    <div class="container">
+    <main class="container">
         <div class="text-center">
-            <script type="text/javascript">
-               function toggleMe(a){
-               var e=document.getElementById(a);
-               var i = document.getElementById(a + '_image');
-               if(!e)return true;
-               if(e.style.display=="none"){
-                    e.style.display="block"
-                    i.src = '';
-                    }
-                else {
-                    e.style.display="none"
-                    i.src = '';
-                    }
-               return false;
-               }
-            </script>
             <h3>
                 <a style="cursor:pointer; text-decoration: none;"
                    onclick="return toggleMe('para1')">
@@ -119,11 +103,10 @@
             <!-- Helps with spacing -->
             <br><br><br><br><br><br>
         </div>
-        
-        <div class="footer">
-            <p>SPC Programming Club</p>
-        </div>
-    </div><!-- /.container -->
+    </main><!-- /.container -->
+    <footer style="position: absolute">
+        <p>SPC Programming Club</p>
+    </footer>
       
     <!-- Bootstrap core JavaScript
     ================================================== -->
@@ -133,5 +116,6 @@
     <script src="js/bootstrap.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+    <script src="js/test.js"></script>
   </body>
 </html>
