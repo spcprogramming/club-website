@@ -27,31 +27,13 @@
   </head>
 
   <body>
-    <nav class="navbar navbar-inverse navbar-fixed-top" style="background-color: #133e69; text-decoration-color: #00000;">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="/">SPC Programming Club</a>
-        </div>
-        <div id="navbar" class="collapse navbar-collapse">
-          <ul class="nav navbar-nav">
-            <li><a href="index.html">Home</a></li>
-            <li class="active"><a href="#">FAQs</a></li>
-            <li><a href="contact.html">Contact</a></li>
-          </ul>
-        </div><!--/.nav-collapse -->
-      </div>
-    </nav>
+
+    <?php include 'partials/header.php';?>
+
     <main class="container">
         <div class="text-center">
             <h3>
-                <a style="cursor:pointer; text-decoration: none;"
-                   onclick="return toggleMe('para1')">
+                <a onclick="return toggleMe('para1')">
                 What time does our club meet?
                 </a>
             </h3>
@@ -61,8 +43,7 @@
             </div>
             <br> <!-- Helps with spacing -->
             <h3>
-                <a style="cursor:pointer; text-decoration: none;"
-                   onclick="return toggleMe('para2')">
+                <a onclick="return toggleMe('para2')">
                     How often do you guys meet?
                 </a>
             </h3>
@@ -71,8 +52,7 @@
             </div>
             <br> <!-- Helps with spacing -->
             <h3>
-                <a style="cursor:pointer; text-decoration: none;"
-                   onclick="return toggleMe('para3')">
+                <a onclick="return toggleMe('para3')">
                     What’s so special about this “programming club”?
                 </a>
             </h3>
@@ -82,8 +62,7 @@
             </div>
             <br> <!-- Helps with spacing -->
             <h3>
-                <a style="cursor:pointer; text-decoration: none;"
-                   onclick="return toggleMe('para4')">
+                <a onclick="return toggleMe('para4')">
                     Do you guys teach formal lessons?
                 </a>
             </h3>
@@ -92,8 +71,7 @@
             </div>
             <br> <!-- Helps with spacing -->
             <h3>
-                <a style="cursor:pointer; text-decoration: none;"
-                   onclick="return toggleMe('para5')">
+                <a onclick="return toggleMe('para5')">
                     Ok Ok, but WHERE do you guys meet?
                 </a>
             </h3>

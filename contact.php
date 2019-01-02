@@ -27,26 +27,9 @@
     <![endif]-->
   </head>
   <body>
-    <nav class="navbar navbar-inverse navbar-fixed-top" style="background-color: #133e69; text-decoration-color: #00000;">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="/">SPC Programming Club</a>
-        </div>
-        <div id="navbar" class="collapse navbar-collapse">
-          <ul class="nav navbar-nav">
-            <li><a href="/">Home</a></li>
-            <li><a href="FAQ.html">FAQs</a></li>
-            <li class="active"><a href="#">Contact</a></li>
-          </ul>
-        </div><!--/.nav-collapse -->
-      </div>
-    </nav>
+
+    <?php include 'partials/header.php';?>
+
     <main class="container">
         <div class="starter-template">
             <h1>SPC Programming Club @ Gibbs Campus</h1>
@@ -61,7 +44,7 @@
     </main><!-- /.container -->
     <footer style="position: fixed">
         <p>SPC Programming Club</p>
-    </footer>   
+    </footer>
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->

@@ -19,7 +19,7 @@
 
     <!-- Custom styles for this template -->
     <link href="css/starter-template.css" rel="stylesheet">
-      
+
     <!-- Our custom stylesheet -->
     <link href="css/custom-styles.css" rel="stylesheet">
 
@@ -30,26 +30,9 @@
     <![endif]-->
   </head>
   <body>
-    <nav class="navbar navbar-inverse navbar-fixed-top" style="background-color: #133e69; text-decoration-color: #00000;">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="/">SPC Programming Club</a>
-        </div>
-        <div id="navbar" class="collapse navbar-collapse">
-          <ul class="nav navbar-nav">
-            <li class="active"><a href="/">Home</a></li>
-            <li><a href="FAQ.html">FAQs</a></li>
-            <li><a href="contact.html">Contact</a></li>
-          </ul>
-        </div><!--/.nav-collapse -->
-      </div>
-    </nav>  
+
+    <?php include 'partials/header.php';?>
+
     <main class="container">
         <div class="starter-template">
             <h1>SPC Programming Club @ Gibbs Campus</h1>
@@ -72,7 +55,7 @@
                     </div>
                     <div class="item">
                         <img src="img/BabyNameChart.png" alt="Baby Name Chart Java App" style="width:100%;">
-                    </div>    
+                    </div>
                     <div class="item">
                         <img src="img/Hello%20World.png" alt="helloWorld.cpp" style="width:100%;">
                     </div>
@@ -88,12 +71,12 @@
                 </a>
             </div>
         </div>
-        
+
         <p class="index-text">Welcome to the Computer Programming Club at the St. Pete / Gibbs campus
                               of St. Petersburg College! We are a group of students and alumni who meet to share our knowledge and collaborate with one another on a myraid of projects. We welcome any and all skill levels and often help with homework or questions about the field. Please feel free to join us at anytime as we are eager to guide anyone who is interested. please see our <a href="FAQ.html">FAQ</a> page or <a href="contact.html">contact us</a> for more details.</p>
-        
+
         <br><br><br>
-        
+
         <br><br>
         <div class="lead text-center">
             <h2>Connect with us!</h2>
@@ -101,7 +84,7 @@
             <a href="https://join.slack.com/t/t-leaves/shared_invite/enQtMjgyMjg5NDAxNDYyLTU4MTlhYTc3NjAzZDZkNTZiNzBiNzAwYjIwNzliZDA0NzQyMzcyMzliNWQ2MWYxODA0ZDY2ZGI3ZDk1MGFhZDM"><img src="img/slack.png"></a>
         </div>
         <br><br><br><br>
-    </main><!-- /.container -->    
+    </main><!-- /.container -->
     <footer>
         <p>SPC Programming Club</p>
     </footer>

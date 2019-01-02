@@ -11,7 +11,7 @@ nav {
     background-color: #133e69;
     text-decoration-color: black;
 }
-main{    
+main{
 }
 footer {
     left: 0;
@@ -22,4 +22,24 @@ footer {
     text-align: center;
     height: 50px;
     font-family: "verdana"
+}
+
+a {
+  cursor:pointer;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
 }
