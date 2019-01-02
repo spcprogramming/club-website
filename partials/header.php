@@ -7,11 +7,11 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="/club-website">SPC Programming Club</a>
+      <a class="navbar-brand" href="/">SPC Programming Club</a>
     </div>
     <div id="navbar" class="collapse navbar-collapse">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="/club-website">Home</a></li>
+        <li class="active"><a href="/">Home</a></li>
         <li><a href="FAQ.php">FAQs</a></li>
         <li><a href="contact.php">Contact</a></li>
       </ul>
