@@ -9,7 +9,8 @@
     <meta name="author" content="">
     <link rel="icon" href="../../favicon.ico">
 
-      <title>Frequently Asked Questions</title>
+    <title>Contact Us</title>
+
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
@@ -25,7 +26,6 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
   </head>
-
   <body>
     <nav class="navbar navbar-inverse navbar-fixed-top" style="background-color: #133e69; text-decoration-color: #00000;">
       <div class="container">
@@ -36,73 +36,32 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="/">SPC Programming Club</a>
+          <a class="navbar-brand" href="http://localhost/club-website/Club%20Website/">SPC Programming Club</a>
         </div>
         <div id="navbar" class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
-            <li><a href="index.html">Home</a></li>
-            <li class="active"><a href="#">FAQs</a></li>
-            <li><a href="contact.html">Contact</a></li>
+            <li class="active"><a href="http://localhost/club-website/Club%20Website/">Home</a></li>
+            <li><a href="FAQ.php">FAQs</a></li>
+            <li><a href="contact.php">Contact</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
     </nav>
     <main class="container">
-        <div class="text-center">
-            <h3>
-                <a onclick="return toggleMe('para1')">
-                What time does our club meet?
-                </a>
-            </h3>
-            <div id="para1" style="display: none;">
-                We tend to meet at 6:00 pm on Monday evenings. The meetings usually run until
-                around 8:30.
-            </div>
-            <br> <!-- Helps with spacing -->
-            <h3>
-                <a onclick="return toggleMe('para2')">
-                    How often do you guys meet?
-                </a>
-            </h3>
-            <div id="para2" style="display: none;">
-                Once a week! (Monday evenings)
-            </div>
-            <br> <!-- Helps with spacing -->
-            <h3>
-                <a onclick="return toggleMe('para3')">
-                    What’s so special about this “programming club”?
-                </a>
-            </h3>
-            <div id="para3" style="display: none;">
-                Ah. We’re glad you asked! We’re just a fun loving group of people who like to
-                write code and get jiggy with it.
-            </div>
-            <br> <!-- Helps with spacing -->
-            <h3>
-                <a onclick="return toggleMe('para4')">
-                    Do you guys teach formal lessons?
-                </a>
-            </h3>
-            <div id="para4" style="display: none;">
-                Not really. We’ll gladly help with any questions you may have, and if a bunch of                    you seem to have the same question, we’ll try to break it down for you on the                       board. <br> Otherwise, we’re mostly a group of nerds getting together to write some                      code for fun!
-            </div>
-            <br> <!-- Helps with spacing -->
-            <h3>
-                <a onclick="return toggleMe('para5')">
-                    Ok Ok, but WHERE do you guys meet?
-                </a>
-            </h3>
-            <div id="para5" style="display: none;">
-                TE111 on the Gibbs campus!
-            </div>
-            <!-- Helps with spacing -->
-            <br><br><br><br><br><br>
+        <div class="starter-template">
+            <h1>SPC Programming Club @ Gibbs Campus</h1>
+            <p class="lead">Insert awesome things about the programming club here!</p>
+            <h1 class="text-center">Send us an email <a href="mailTo:SPCProgramming@gmail.com">here</a></h1>
+        </div>
+        <div class="lead text-center">
+            <h2>Join our Slack!!</h2>
+            <br>
+            <a href="https://join.slack.com/t/t-leaves/shared_invite/enQtMjgyMjg5NDAxNDYyLTU4MTlhYTc3NjAzZDZkNTZiNzBiNzAwYjIwNzliZDA0NzQyMzcyMzliNWQ2MWYxODA0ZDY2ZGI3ZDk1MGFhZDM"><img src="img/slack.png"></a>
         </div>
     </main><!-- /.container -->
-    <footer style="position: absolute">
+    <footer style="position: fixed">
         <p>SPC Programming Club</p>
     </footer>
-
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
@@ -111,6 +70,5 @@
     <script src="js/bootstrap.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
-    <script src="js/question-dropdown.js"></script>
   </body>
 </html>
