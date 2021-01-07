@@ -1,6 +1,6 @@
 .index-text {
-    column-count: 3;
-    column-width: 40px;
+    column-count: 1;
+    column-width: auto;
     padding-left: 20px; 
     /*padding-right: 20px; */ 
     padding-top: 50px; 
